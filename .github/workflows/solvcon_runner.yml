@@ -1,6 +1,6 @@
 name: Application Build - SOLVCON
 on:
-  workflow_dispatch
+  workflow_dispatch:
   schedule:
     - cron: '21 18 * * 5'
 jobs:
